@@ -1,0 +1,436 @@
+{
+  "name": "Sea Leviathan",
+  "id": "sea_leviathan",
+  "description": "Ancient world-edge guardian. Rises from the deep to kill anything trying to swim past the border of the map.",
+  "frame_size": [
+    256,
+    192
+  ],
+  "wide_frame_size": [
+    384,
+    192
+  ],
+  "anchor": [
+    128,
+    132
+  ],
+  "anchor_note": "point on the water surface directly under the head",
+  "waterline_y": 132,
+  "alpha": "binary",
+  "facing": "right",
+  "animations": {
+    "Idle_Submerged": {
+      "file": "Idle_Submerged.png",
+      "frames": 8,
+      "fps": 6,
+      "loop": true,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [],
+      "projectile_frames": []
+    },
+    "Patrol_Swim": {
+      "file": "Patrol_Swim.png",
+      "frames": 10,
+      "fps": 8,
+      "loop": true,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [],
+      "projectile_frames": []
+    },
+    "Detect": {
+      "file": "Detect.png",
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [],
+      "projectile_frames": []
+    },
+    "Emerge": {
+      "file": "Emerge.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [],
+      "projectile_frames": []
+    },
+    "Attack_1_Bite": {
+      "file": "Attack_1_Bite.png",
+      "frames": 12,
+      "fps": 14,
+      "loop": false,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [
+        7,
+        8
+      ],
+      "projectile_frames": [],
+      "vfx": {
+        "name": "Bite_Splash",
+        "spawn_frame": 6,
+        "spawn_pos": [
+          206,
+          130
+        ]
+      }
+    },
+    "Attack_2_Devour": {
+      "file": "Attack_2_Devour.png",
+      "frames": 14,
+      "fps": 12,
+      "loop": false,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [
+        9
+      ],
+      "projectile_frames": [],
+      "vfx": {
+        "name": "Devour_Splash",
+        "spawn_frame": 7,
+        "spawn_pos": [
+          150,
+          132
+        ]
+      }
+    },
+    "Attack_3_Tail_Wave": {
+      "file": "Attack_3_Tail_Wave.png",
+      "frames": 14,
+      "fps": 11,
+      "loop": false,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [
+        8
+      ],
+      "projectile_frames": [
+        8
+      ],
+      "vfx": {
+        "name": "Tidal_Wave",
+        "spawn_frame": 6,
+        "spawn_pos": [
+          56,
+          132
+        ]
+      }
+    },
+    "Attack_4_Deep_Roar": {
+      "file": "Attack_4_Deep_Roar.png",
+      "frames": 12,
+      "fps": 10,
+      "loop": false,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [
+        7
+      ],
+      "projectile_frames": [],
+      "vfx": {
+        "name": "Sonic_Rings",
+        "spawn_frame": 5,
+        "spawn_pos": [
+          196,
+          100
+        ]
+      }
+    },
+    "Attack_5_Depth_Tentacles": {
+      "file": "Attack_5_Depth_Tentacles.png",
+      "frames": 14,
+      "fps": 11,
+      "loop": false,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [
+        9
+      ],
+      "projectile_frames": [],
+      "vfx": {
+        "name": "Tentacles",
+        "spawn_frame": 4,
+        "spawn_pos": [
+          128,
+          132
+        ]
+      }
+    },
+    "Hurt": {
+      "file": "Hurt.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [],
+      "projectile_frames": []
+    },
+    "Enraged": {
+      "file": "Enraged.png",
+      "frames": 8,
+      "fps": 10,
+      "loop": true,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [],
+      "projectile_frames": []
+    },
+    "Death": {
+      "file": "Death.png",
+      "frames": 18,
+      "fps": 8,
+      "loop": false,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        132
+      ],
+      "hit_frames": [],
+      "projectile_frames": [],
+      "vfx": {
+        "name": "Death_Whirlpool",
+        "spawn_frame": 8,
+        "spawn_pos": [
+          128,
+          136
+        ]
+      }
+    }
+  },
+  "vfx": {
+    "Bite_Splash": {
+      "file": "VFX_Bite_Splash.png",
+      "frames": 8,
+      "fps": 16,
+      "frame_size": [
+        160,
+        128
+      ],
+      "anchor": [
+        80,
+        96
+      ],
+      "loop": false
+    },
+    "Devour_Splash": {
+      "file": "VFX_Devour_Splash.png",
+      "frames": 12,
+      "fps": 14,
+      "frame_size": [
+        384,
+        192
+      ],
+      "anchor": [
+        192,
+        150
+      ],
+      "loop": false
+    },
+    "Tidal_Wave": {
+      "file": "VFX_Tidal_Wave.png",
+      "frames": 14,
+      "fps": 11,
+      "frame_size": [
+        384,
+        192
+      ],
+      "anchor": [
+        192,
+        150
+      ],
+      "loop": false
+    },
+    "Sonic_Rings": {
+      "file": "VFX_Sonic_Rings.png",
+      "frames": 10,
+      "fps": 12,
+      "frame_size": [
+        256,
+        192
+      ],
+      "anchor": [
+        128,
+        88
+      ],
+      "loop": false
+    },
+    "Tentacles": {
+      "file": "VFX_Tentacles.png",
+      "frames": 14,
+      "fps": 11,
+      "frame_size": [
+        384,
+        192
+      ],
+      "anchor": [
+        192,
+        150
+      ],
+      "loop": false
+    },
+    "Death_Whirlpool": {
+      "file": "VFX_Death_Whirlpool.png",
+      "frames": 14,
+      "fps": 10,
+      "frame_size": [
+        384,
+        192
+      ],
+      "anchor": [
+        192,
+        150
+      ],
+      "loop": false
+    }
+  },
+  "combat": {
+    "max_hp": 500,
+    "hp_note": "five times the player's 100 HP",
+    "damage_per_hit": 20,
+    "damage_note": "five hits to kill a full health player, never a one shot",
+    "invulnerable": true,
+    "invulnerable_note": "cannot be defeated by ordinary weapons; damage is refused until leviathan_story_unlocked is set",
+    "story_flag": "leviathan_story_unlocked",
+    "knockback": 340.0,
+    "attacks": {
+      "Attack_1_Bite": {
+        "range_px": 210,
+        "cooldown": 3.4,
+        "damage": 20
+      },
+      "Attack_2_Devour": {
+        "range_px": 150,
+        "cooldown": 9.0,
+        "damage": 20,
+        "note": "finisher used past the border"
+      },
+      "Attack_3_Tail_Wave": {
+        "range_px": 320,
+        "cooldown": 6.0,
+        "damage": 12,
+        "note": "pushes the target back toward the map"
+      },
+      "Attack_4_Deep_Roar": {
+        "range_px": 380,
+        "cooldown": 7.5,
+        "damage": 8,
+        "status": [
+          "stun",
+          "slow"
+        ]
+      },
+      "Attack_5_Depth_Tentacles": {
+        "range_px": 260,
+        "cooldown": 8.0,
+        "damage": 14,
+        "status": [
+          "root"
+        ]
+      }
+    }
+  },
+  "behavior": {
+    "stages": [
+      {
+        "name": "warning",
+        "trigger": "player enters the edge water",
+        "shows": "eyes under the surface and a distant roar"
+      },
+      {
+        "name": "push_back",
+        "trigger": "player keeps swimming out",
+        "shows": "Attack_3_Tail_Wave shoves the player inland"
+      },
+      {
+        "name": "hunt",
+        "trigger": "player ignores the warning",
+        "shows": "Emerge, then bite, roar and tentacle attacks"
+      },
+      {
+        "name": "execute",
+        "trigger": "player crosses the border",
+        "shows": "Attack_2_Devour"
+      }
+    ],
+    "notes": [
+      "attacks must read as lethal without any UI warning",
+      "most of the body always stays hidden under the water"
+    ]
+  }
+}

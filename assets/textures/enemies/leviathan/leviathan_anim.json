@@ -1,0 +1,114 @@
+{
+  "frame_size": [
+    256,
+    192
+  ],
+  "facing": "right",
+  "anchor": {
+    "x": 128,
+    "y": 132
+  },
+  "frame_indexing": "0-based",
+  "ground_clearance": 0,
+  "state_fallbacks": {
+    "attack_1": "attack_1",
+    "attack_2": "attack_1",
+    "attack_3": "attack_1",
+    "attack_4": "attack_1",
+    "attack_5": "attack_1",
+    "detect": "idle",
+    "emerge": "move",
+    "enraged": "move",
+    "death": "hurt"
+  },
+  "animations": {
+    "idle": {
+      "file": "Idle_Submerged.png",
+      "frames": 8,
+      "fps": 6,
+      "loop": true
+    },
+    "move": {
+      "file": "Patrol_Swim.png",
+      "frames": 10,
+      "fps": 8,
+      "loop": true
+    },
+    "detect": {
+      "file": "Detect.png",
+      "frames": 6,
+      "fps": 10,
+      "loop": false
+    },
+    "emerge": {
+      "file": "Emerge.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false
+    },
+    "attack_1": {
+      "file": "Attack_1_Bite.png",
+      "frames": 12,
+      "fps": 14,
+      "loop": false,
+      "hit_frames": [
+        6,
+        7
+      ]
+    },
+    "attack_2": {
+      "file": "Attack_2_Devour.png",
+      "frames": 14,
+      "fps": 12,
+      "loop": false,
+      "hit_frames": [
+        8
+      ]
+    },
+    "attack_3": {
+      "file": "Attack_3_Tail_Wave.png",
+      "frames": 14,
+      "fps": 11,
+      "loop": false,
+      "hit_frames": [
+        7
+      ]
+    },
+    "attack_4": {
+      "file": "Attack_4_Deep_Roar.png",
+      "frames": 12,
+      "fps": 10,
+      "loop": false,
+      "hit_frames": [
+        6
+      ]
+    },
+    "attack_5": {
+      "file": "Attack_5_Depth_Tentacles.png",
+      "frames": 14,
+      "fps": 11,
+      "loop": false,
+      "hit_frames": [
+        8
+      ]
+    },
+    "hurt": {
+      "file": "Hurt.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "enraged": {
+      "file": "Enraged.png",
+      "frames": 8,
+      "fps": 10,
+      "loop": true
+    },
+    "death": {
+      "file": "Death.png",
+      "frames": 18,
+      "fps": 8,
+      "loop": false
+    }
+  }
+}
