@@ -1,0 +1,31 @@
+{
+  "frame_size": [160, 96],
+  "facing": "right",
+  "anchor": {"x": 80, "y": 48},
+  "frame_indexing": "0-based",
+  "animations": {
+    "idle": {"file": "spore_bat_idle.png", "frames": 8, "fps": 8, "loop": true},
+    "move": {"file": "spore_bat_move.png", "frames": 8, "fps": 12, "loop": true},
+    "alert": {"file": "spore_bat_alert.png", "frames": 5, "fps": 10, "loop": false},
+    "hurt": {"file": "spore_bat_hurt.png", "frames": 4, "fps": 14, "loop": false},
+    "stunned": {"file": "spore_bat_stunned.png", "frames": 4, "fps": 6, "loop": true},
+    "attack_1": {
+      "file": "spore_bat_bite.png",
+      "frames": 8,
+      "fps": 14,
+      "loop": false,
+      "hit_frames": [4]
+    },
+    "attack_2": {
+      "file": "spore_bat_spore_burst.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "hit_frames": [5]
+    },
+    "spore_cloud": {"file": "spore_bat_spore_cloud.png", "frames": 12, "fps": 11.2, "loop": false},
+    "spore_trail": {"file": "spore_bat_spore_trail.png", "frames": 8, "fps": 9.1, "loop": false},
+    "death": {"file": "spore_bat_death.png", "frames": 10, "fps": 12, "loop": false},
+    "death_impact": {"file": "spore_bat_death_impact.png", "frames": 6, "fps": 10, "loop": false}
+  }
+}
