@@ -1,0 +1,22 @@
+{
+  "frame_size": [160, 128],
+  "facing": "right",
+  "anchor": {"x": 80, "y": 121},
+  "ground_clearance": 1.0,
+  "animations": {
+    "idle": {"file": "idle.png", "frames": 8, "fps": 7, "loop": true},
+    "move": {"file": "move.png", "frames": 10, "fps": 8, "loop": true},
+    "alert": {"file": "alert.png", "frames": 5, "fps": 9, "loop": false},
+    "hurt": {"file": "hurt.png", "frames": 4, "fps": 12, "loop": false},
+    "stunned": {"file": "stunned.png", "frames": 4, "fps": 6, "loop": true},
+    "attack_1": {"file": "attack_1_anchor_strike.png", "frames": 10, "fps": 12, "loop": false, "hit_frames": [6, 7]},
+    "attack_2": {"file": "attack_2_harpoon.png", "frames": 12, "fps": 12, "loop": false, "projectile_frames": [7], "projectile_spawn": [118, 52]},
+    "harpoon_projectile": {"file": "harpoon_projectile.png", "frames": 4, "fps": 12, "loop": true, "anchor": {"x": 48, "y": 47}},
+    "harpoon_impact": {"file": "harpoon_impact.png", "frames": 7, "fps": 14, "loop": false, "anchor": {"x": 32, "y": 63}},
+    "attack_3": {"file": "attack_3_water_wave.png", "frames": 12, "fps": 11, "loop": false, "projectile_frames": [7]},
+    "wave_projectile": {"file": "wave_projectile.png", "frames": 6, "fps": 12, "loop": true, "anchor": {"x": 64, "y": 63}},
+    "wave_impact": {"file": "wave_impact.png", "frames": 8, "fps": 14, "loop": false, "anchor": {"x": 48, "y": 63}},
+    "attack_4": {"file": "attack_4_guard.png", "frames": 8, "fps": 8, "loop": false, "guard_frames": [3, 4, 5, 6]},
+    "death": {"file": "death.png", "frames": 13, "fps": 9, "loop": false}
+  }
+}

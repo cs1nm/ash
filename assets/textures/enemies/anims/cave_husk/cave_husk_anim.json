@@ -1,0 +1,57 @@
+{
+  "frame_size": [160, 96],
+  "facing": "right",
+  "anchor": {"x": 80, "y": 89},
+  "ground_clearance": 1.0,
+  "frame_indexing": "0-based",
+  "animations": {
+    "idle": {"file": "cave_husk_idle_sheet.png", "frames": 6, "fps": 7, "loop": true},
+    "move": {"file": "cave_husk_move_sheet.png", "frames": 8, "fps": 10, "loop": true},
+    "alert": {"file": "cave_husk_alert_sheet.png", "frames": 5, "fps": 8.6, "loop": false},
+    "hurt": {"file": "cave_husk_hurt_sheet.png", "frames": 3, "fps": 12.3, "loop": false},
+    "stunned": {"file": "cave_husk_stunned_sheet.png", "frames": 4, "fps": 6, "loop": true},
+    "attack_1": {
+      "file": "cave_husk_attack_reach_sheet.png",
+      "frames": 8,
+      "fps": 9.4,
+      "loop": false,
+      "hit_frames": [4, 5]
+    },
+    "reach_vfx": {
+      "file": "cave_husk_attack_reach_vfx_sheet.png",
+      "frames": 8,
+      "fps": 9.4,
+      "loop": false
+    },
+    "attack_2": {
+      "file": "cave_husk_throw_rock_sheet.png",
+      "frames": 10,
+      "fps": 9.7,
+      "loop": false,
+      "projectile_frames": [5],
+      "projectile_spawn": [112, 46]
+    },
+    "rock_projectile": {
+      "file": "cave_husk_rock_projectile_sheet.png",
+      "frames": 6,
+      "fps": 12,
+      "loop": true
+    },
+    "rock_impact": {
+      "file": "cave_husk_rock_impact_sheet.png",
+      "frames": 7,
+      "fps": 14.1,
+      "loop": false
+    },
+    "attack_3": {
+      "file": "cave_husk_attack_slam_sheet.png",
+      "frames": 8,
+      "fps": 8.2,
+      "loop": false,
+      "hit_frames": [5]
+    },
+    "slam_vfx": {"file": "cave_husk_attack_slam_vfx_sheet.png", "frames": 8, "fps": 8.2, "loop": false},
+    "death": {"file": "cave_husk_death_sheet.png", "frames": 10, "fps": 5.9, "loop": false},
+    "death_vfx": {"file": "cave_husk_death_vfx_sheet.png", "frames": 10, "fps": 5.9, "loop": false}
+  }
+}

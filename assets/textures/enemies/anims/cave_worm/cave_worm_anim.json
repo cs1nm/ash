@@ -1,0 +1,93 @@
+{
+  "frame_size": [
+    160,
+    96
+  ],
+  "facing": "right",
+  "anchor": {
+    "x": 80,
+    "y": 89
+  },
+  "ground_clearance": 1.0,
+  "frame_indexing": "0-based",
+  "animations": {
+    "idle": {
+      "file": "cave_worm_idle.png",
+      "frames": 10,
+      "fps": 7,
+      "loop": true
+    },
+    "move": {
+      "file": "cave_worm_move.png",
+      "frames": 16,
+      "fps": 12,
+      "loop": true
+    },
+    "hurt": {
+      "file": "cave_worm_hurt.png",
+      "frames": 6,
+      "fps": 14,
+      "loop": false
+    },
+    "death": {
+      "file": "cave_worm_death.png",
+      "frames": 18,
+      "fps": 12,
+      "loop": false
+    },
+    "attack_1": {
+      "file": "cave_worm_bite.png",
+      "frames": 14,
+      "fps": 14,
+      "loop": false,
+      "hit_frames": [
+        7,
+        8
+      ]
+    },
+    "attack_2": {
+      "file": "cave_worm_roll.png",
+      "frames": 20,
+      "fps": 14,
+      "loop": false,
+      "roll_start_frames": [
+        9
+      ],
+      "hit_frames": [
+        10,
+        11
+      ]
+    },
+    "attack_3": {
+      "file": "cave_worm_burrow.png",
+      "frames": 22,
+      "fps": 14,
+      "loop": false,
+      "burrow_start_frames": [
+        6
+      ],
+      "hit_frames": [
+        14,
+        15
+      ]
+    },
+    "bite_impact": {
+      "file": "cave_worm_bite_impact.png",
+      "frames": 7,
+      "fps": 14,
+      "loop": false
+    },
+    "roll_dust": {
+      "file": "cave_worm_roll_dust.png",
+      "frames": 8,
+      "fps": 14,
+      "loop": false
+    },
+    "burrow_dust": {
+      "file": "cave_worm_burrow_dust.png",
+      "frames": 10,
+      "fps": 14,
+      "loop": false
+    }
+  }
+}
