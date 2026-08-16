@@ -1,0 +1,22 @@
+{
+  "frame_size": [160, 128],
+  "facing": "right",
+  "anchor": {"x": 80, "y": 121},
+  "ground_clearance": 1.0,
+  "animations": {
+    "idle": {"file": "idle.png", "frames": 8, "fps": 7, "loop": true},
+    "move": {"file": "move.png", "frames": 10, "fps": 9, "loop": true},
+    "alert": {"file": "alert.png", "frames": 5, "fps": 9, "loop": false},
+    "hurt": {"file": "hurt.png", "frames": 4, "fps": 12, "loop": false},
+    "stunned": {"file": "stunned.png", "frames": 5, "fps": 6, "loop": true},
+    "attack_1": {"file": "attack_1_hammer_swing.png", "frames": 10, "fps": 12, "loop": false, "hit_frames": [6, 7]},
+    "attack_2": {"file": "attack_2_ground_slam.png", "frames": 12, "fps": 11, "loop": false, "hit_frames": [7]},
+    "slam_vfx": {"file": "slam_vfx.png", "frames": 8, "fps": 12, "loop": false, "anchor": {"x": 80, "y": 63}},
+    "ground_cracks": {"file": "ground_cracks.png", "frames": 8, "fps": 12, "loop": false, "anchor": {"x": 80, "y": 47}},
+    "attack_3": {"file": "attack_3_ash_projectile.png", "frames": 11, "fps": 12, "loop": false, "projectile_frames": [6], "projectile_spawn": [115, 49]},
+    "sentinel_projectile": {"file": "sentinel_projectile.png", "frames": 6, "fps": 14, "loop": true, "anchor": {"x": 32, "y": 63}},
+    "projectile_impact": {"file": "projectile_impact.png", "frames": 8, "fps": 14, "loop": false, "anchor": {"x": 48, "y": 95}},
+    "attack_4": {"file": "attack_4_guard.png", "frames": 8, "fps": 8, "loop": false, "guard_frames": [3, 4, 5, 6]},
+    "death": {"file": "death.png", "frames": 13, "fps": 9, "loop": false}
+  }
+}
