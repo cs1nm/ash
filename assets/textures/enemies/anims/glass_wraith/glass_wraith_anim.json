@@ -1,0 +1,23 @@
+{
+  "frame_size": [144, 160],
+  "facing": "right",
+  "anchor": {"x": 72, "y": 80},
+  "animations": {
+    "idle": {"file": "idle.png", "frames": 8, "fps": 8, "loop": true},
+    "move": {"file": "move.png", "frames": 8, "fps": 12, "loop": true},
+    "alert": {"file": "alert.png", "frames": 5, "fps": 10, "loop": false},
+    "hurt": {"file": "hurt.png", "frames": 4, "fps": 14, "loop": false},
+    "stunned": {"file": "stunned.png", "frames": 4, "fps": 6, "loop": true},
+    "attack_1": {"file": "attack_1_shard_fan.png", "frames": 12, "fps": 13, "loop": false, "projectile_frames": [7], "projectile_spawn": [96, 76], "projectile_fan_degrees": [-52, -26, 0, 26, 52]},
+    "shard_projectile": {"file": "shard_projectile.png", "frames": 6, "fps": 14, "loop": true, "anchor": {"x": 24, "y": 24}},
+    "shard_impact": {"file": "shard_impact.png", "frames": 7, "fps": 14, "loop": false, "anchor": {"x": 32, "y": 32}},
+    "attack_2": {"file": "attack_2_teleport_slash.png", "frames": 10, "fps": 14, "loop": false, "hit_frames": [6, 7], "invulnerable_frames": [4, 5]},
+    "teleport_vfx": {"file": "teleport_vfx.png", "frames": 8, "fps": 14, "loop": false, "anchor": {"x": 48, "y": 64}},
+    "slash_vfx": {"file": "slash_vfx.png", "frames": 6, "fps": 14, "loop": false, "anchor": {"x": 64, "y": 48}},
+    "attack_3": {"file": "attack_3_glass_laser.png", "frames": 14, "fps": 12, "loop": false, "laser_start_frames": [7]},
+    "laser_beam": {"file": "laser_beam.png", "frames": 14, "fps": 12, "loop": false, "laser_start_frames": [7], "anchor": {"x": 0, "y": 32}},
+    "attack_4": {"file": "attack_4_crystal_cage.png", "frames": 14, "fps": 11, "loop": false, "hit_frames": [8]},
+    "cage_vfx": {"file": "cage_vfx.png", "frames": 14, "fps": 11, "loop": false, "hit_frames": [8], "anchor": {"x": 80, "y": 64}},
+    "death": {"file": "death.png", "frames": 14, "fps": 10, "loop": false}
+  }
+}

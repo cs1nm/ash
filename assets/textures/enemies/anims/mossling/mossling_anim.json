@@ -1,0 +1,73 @@
+{
+  "frame_size": [
+    128,
+    96
+  ],
+  "facing": "right",
+  "anchor": {
+    "x": 64,
+    "y": 89
+  },
+  "ground_clearance": 1.0,
+  "frame_indexing": "0-based",
+  "animations": {
+    "idle": {
+      "file": "mossling_idle.png",
+      "frames": 10,
+      "fps": 7,
+      "loop": true
+    },
+    "move": {
+      "file": "mossling_move.png",
+      "frames": 14,
+      "fps": 12,
+      "loop": true
+    },
+    "hurt": {
+      "file": "mossling_hurt.png",
+      "frames": 6,
+      "fps": 14,
+      "loop": false
+    },
+    "attack_1": {
+      "file": "mossling_attack_1.png",
+      "frames": 14,
+      "fps": 14,
+      "loop": false,
+      "hit_frames": [
+        7,
+        8
+      ],
+      "hit_frames_1based": [
+        8,
+        9
+      ]
+    },
+    "attack_2": {
+      "file": "mossling_attack_2.png",
+      "frames": 18,
+      "fps": 14,
+      "loop": false,
+      "hit_frames": [
+        10,
+        11
+      ],
+      "hit_frames_1based": [
+        11,
+        12
+      ]
+    },
+    "death": {
+      "file": "mossling_death.png",
+      "frames": 16,
+      "fps": 12,
+      "loop": false
+    },
+    "root_impact": {
+      "file": "mossling_root_impact.png",
+      "frames": 8,
+      "fps": 13,
+      "loop": false
+    }
+  }
+}
