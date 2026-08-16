@@ -1,0 +1,17 @@
+{
+  "frame_size": [96, 96],
+  "facing": "right",
+  "anchor": {"x": 48, "y": 48},
+  "animations": {
+    "idle": {"file": "idle.png", "frames": 8, "fps": 8, "loop": true},
+    "move": {"file": "move.png", "frames": 8, "fps": 12, "loop": true},
+    "alert": {"file": "alert.png", "frames": 4, "fps": 10, "loop": false},
+    "hurt": {"file": "hurt.png", "frames": 4, "fps": 14, "loop": false},
+    "attack_1": {"file": "attack_1_ember_bolt.png", "frames": 9, "fps": 13, "loop": false, "projectile_frames": [5], "projectile_spawn": [72, 48]},
+    "ember_projectile": {"file": "ember_projectile.png", "frames": 6, "fps": 14, "loop": true, "anchor": {"x": 24, "y": 24}},
+    "ember_impact": {"file": "ember_impact.png", "frames": 7, "fps": 14, "loop": false, "anchor": {"x": 32, "y": 32}},
+    "attack_2": {"file": "attack_2_fire_burst.png", "frames": 10, "fps": 12, "loop": false, "hit_frames": [6]},
+    "burst_vfx": {"file": "burst_vfx.png", "frames": 10, "fps": 12, "loop": false, "anchor": {"x": 48, "y": 48}},
+    "death": {"file": "death.png", "frames": 9, "fps": 12, "loop": false}
+  }
+}

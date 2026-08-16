@@ -1,0 +1,102 @@
+{
+  "frame_size": [
+    160,
+    112
+  ],
+  "facing": "right",
+  "anchor": {
+    "x": 80,
+    "y": 56
+  },
+  "frame_indexing": "0-based",
+  "animations": {
+    "idle": {
+      "file": "bat_idle_hover.png",
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    },
+    "move": {
+      "file": "bat_fly_move.png",
+      "frames": 8,
+      "fps": 12,
+      "loop": true
+    },
+    "hang_idle": {
+      "file": "bat_hang_idle.png",
+      "frames": 6,
+      "fps": 6,
+      "loop": true
+    },
+    "wake_up": {
+      "file": "bat_wake_up.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "hurt": {
+      "file": "bat_hurt.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "attack_1": {
+      "file": "bat_bite_attack.png",
+      "frames": 8,
+      "fps": 14,
+      "loop": false,
+      "hit_frames": [
+        4,
+        5
+      ]
+    },
+    "attack_2": {
+      "file": "bat_sonic_cast.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "projectile_frames": [
+        5
+      ]
+    },
+    "attack_3": {
+      "file": "bat_dive_start.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": false,
+      "hit_frames": [
+        3
+      ]
+    },
+    "dive_loop": {
+      "file": "bat_dive_loop.png",
+      "frames": 3,
+      "fps": 14,
+      "loop": true
+    },
+    "dive_recover": {
+      "file": "bat_dive_recover.png",
+      "frames": 6,
+      "fps": 12,
+      "loop": false
+    },
+    "death": {
+      "file": "bat_death_fall.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false
+    },
+    "death_fall": {
+      "file": "bat_death_fall.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false
+    },
+    "death_impact": {
+      "file": "bat_death_impact.png",
+      "frames": 6,
+      "fps": 12,
+      "loop": false
+    }
+  }
+}
