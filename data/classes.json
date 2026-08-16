@@ -1,0 +1,76 @@
+{
+  "classes": [
+    {
+      "id": "warrior",
+      "name": "Warrior",
+      "role": "Close-range damage",
+      "weapons": ["swords", "spears", "axes"],
+      "armor_focus": ["defense", "knockback resistance"],
+      "signature_bonus": "Combo hits build rage for stronger melee swings."
+    },
+    {
+      "id": "shieldbearer",
+      "name": "Shieldbearer",
+      "role": "Tank and protector",
+      "weapons": ["shields", "maces", "short blades"],
+      "armor_focus": ["block power", "damage reduction"],
+      "signature_bonus": "Perfect blocks release a short shockwave."
+    },
+    {
+      "id": "archer",
+      "name": "Archer",
+      "role": "Fast ranged pressure",
+      "weapons": ["bows", "crossbows", "special arrows"],
+      "armor_focus": ["fire rate", "arrow recovery"],
+      "signature_bonus": "Some arrows split after traveling a short distance."
+    },
+    {
+      "id": "sniper",
+      "name": "Sniper",
+      "role": "High single-target ranged damage",
+      "weapons": ["rifles", "pistols", "piercing rounds"],
+      "armor_focus": ["critical chance", "aim stability"],
+      "signature_bonus": "Standing still charges the next shot into a critical hit."
+    },
+    {
+      "id": "mage",
+      "name": "Mage",
+      "role": "Elemental damage and control",
+      "weapons": ["staves", "spellbooks", "crystals"],
+      "armor_focus": ["mana", "spell power"],
+      "signature_bonus": "Elemental spells leave lingering terrain effects."
+    },
+    {
+      "id": "summoner",
+      "name": "Summoner",
+      "role": "Companion army",
+      "weapons": ["summon rods", "totems", "spirit bells"],
+      "armor_focus": ["minion count", "minion damage"],
+      "signature_bonus": "Minions gain new traits from the current biome."
+    },
+    {
+      "id": "alchemist",
+      "name": "Alchemist",
+      "role": "Status effects and explosives",
+      "weapons": ["flasks", "bombs", "acid sprayers"],
+      "armor_focus": ["effect duration", "area damage"],
+      "signature_bonus": "Thrown flasks can combine into stronger reactions."
+    },
+    {
+      "id": "engineer",
+      "name": "Engineer",
+      "role": "Turrets and mechanisms",
+      "weapons": ["turrets", "mines", "drones"],
+      "armor_focus": ["deploy limit", "device repair"],
+      "signature_bonus": "Placed devices link together for stronger effects."
+    },
+    {
+      "id": "memory_reaper",
+      "name": "Memory Reaper",
+      "role": "Risk-reward ash magic",
+      "weapons": ["phantom blades", "ashes", "curses"],
+      "armor_focus": ["low-health power", "life steal"],
+      "signature_bonus": "Damage rises as health falls, but healing becomes weaker."
+    }
+  ]
+}

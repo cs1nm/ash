@@ -1,0 +1,31 @@
+{
+  "status_effects": {
+    "poison": {"damage_per_second": 2, "duration": 5.0, "refresh_only": true},
+    "burn": {"damage_per_second": 3, "duration": 4.0, "refresh_only": true},
+    "slow": {"speed_multiplier": 0.55, "duration": 2.5, "refresh_only": true},
+    "root_bind": {"movement_lock": 0.8, "then_status": "slow", "refresh_only": true},
+    "fragile": {"physical_damage_multiplier": 1.2, "duration": 4.0, "refresh_only": true},
+    "wet": {"remove_status": "burn", "speed_multiplier": 0.8, "duration": 4.0, "refresh_only": true},
+    "armor_break": {"defense_delta": -3, "duration": 5.0, "refresh_only": true}
+  },
+  "enemies": {
+    "wild_slime": {"attacks": ["jump", "ichor_burst_on_heavy_hit"]},
+    "mossling": {"attacks": ["root_bite", "run_charge"]},
+    "root_crawler": {"attacks": ["bite", "long_root_strike", "burrow_bind"]},
+    "cave_worm": {"attacks": ["bite", "roll_charge", "burrow_ambush"]},
+    "bat": {"attacks": ["bite", "sonic_pulse", "dive_bite"]},
+    "cave_husk": {"attacks": ["long_arm", "throw_rock", "ground_slam"]},
+    "spore_bat": {"attacks": ["bite", "spore_burst"], "passive": "spore_cloud_on_hurt"},
+    "mushroom_beetle": {"attacks": ["bite", "charge", "spore_burst", "shell_guard"]},
+    "ash_phantom": {"attacks": ["teleport_fire_dash", "ash_wave", "fire_ring"]},
+    "ash_wisp": {"attacks": ["magic_bolt", "charged_burst"]},
+    "ash_sentinel": {"attacks": ["sword_combo", "ground_strike", "fire_wave", "shield_stance_counter"]},
+    "ruin_drone": {"attacks": ["magic_bolts", "telegraphed_laser", "close_impulse"]},
+    "drowned_guard": {"attacks": ["trident_lunge", "harpoon_pull", "water_wave", "block"]},
+    "ember_rootling": {"attacks": ["bite", "fire_spit", "telegraphed_burning_roots"]},
+    "night_ember": {"attacks": ["fire_dash", "triple_bolt", "charged_explosion", "low_hp_self_destruct"]},
+    "glass_wraith": {"attacks": ["shard_fan", "teleport_crystal_slash", "telegraphed_beam", "glass_cage"]},
+    "stone_beast": {"attacks": ["claw", "charge", "jump_shockwave", "falling_rocks", "crystal_spikes", "stone_armor"]},
+    "heartwood_boss": {"attacks": ["branch_sweep", "rising_roots", "seed_shot", "mossling_summon", "poison_flowers", "root_node_heal"]}
+  }
+}
