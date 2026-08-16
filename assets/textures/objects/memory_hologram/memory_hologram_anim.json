@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "frame": {
+      "w": 64,
+      "h": 64
+    },
+    "layout": "horizontal strip, frames left to right, no padding",
+    "format": "RGBA PNG, hard edges, no semi-transparent pixels",
+    "loop": true,
+    "fps": 8
+  },
+  "animations": {
+    "memory_hologram": {
+      "file": "memory_hologram.png",
+      "size": [
+        512,
+        64
+      ],
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    }
+  },
+  "events": {
+    "assemble_frames": [
+      1,
+      2
+    ],
+    "near_complete_frames": [
+      3,
+      4,
+      5
+    ],
+    "glitch_frame": 6,
+    "glitch_note": "branch tip, building and baseline segment offset by 1px, purple residue",
+    "restored_frames": [
+      7,
+      8
+    ]
+  },
+  "notes": "damaged memory schematic, not a character: teal angular tree with roots joined into geometric city lines; purple pixels = corrupted data (6 permanent, ~20 during the glitch). Designed to hover above archive_console. Hard pixels only - no blur, glow or gradients."
+}

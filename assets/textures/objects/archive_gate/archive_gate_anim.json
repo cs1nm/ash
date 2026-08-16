@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "frame": {
+      "w": 96,
+      "h": 128
+    },
+    "anchor": [
+      48,
+      127
+    ],
+    "ground_line_y": 127,
+    "layout": "horizontal strip, frames left to right, no padding",
+    "format": "RGBA PNG, hard edges, no semi-transparent pixels"
+  },
+  "animations": {
+    "archive_gate_closed": {
+      "file": "archive_gate_closed.png",
+      "frames": 1,
+      "fps": 1,
+      "loop": false
+    },
+    "archive_gate_opening": {
+      "file": "archive_gate_opening.png",
+      "size": [
+        960,
+        128
+      ],
+      "frames": 10,
+      "fps": 8,
+      "loop": false
+    },
+    "archive_gate_open": {
+      "file": "archive_gate_open.png",
+      "frames": 1,
+      "fps": 1,
+      "loop": false
+    }
+  },
+  "anchor": [
+    48,
+    127
+  ],
+  "events": {
+    "opening": {
+      "lens_lit_frames": [
+        1,
+        2
+      ],
+      "symbols_spread_frames": [
+        3,
+        4,
+        5
+      ],
+      "slabs_move_frames": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "opened_frame": 10,
+      "note": "frame 10 is pixel-identical to archive_gate_open.png"
+    }
+  },
+  "notes": "lens seal sits on the seam and splits into halves with the slabs; dark passage with faint teal light is visible only when open; no surrounding wall outside the frame; gate is built into ruins"
+}

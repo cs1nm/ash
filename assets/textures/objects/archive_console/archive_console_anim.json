@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "frame": {
+      "w": 64,
+      "h": 64
+    },
+    "anchor": [
+      32,
+      59
+    ],
+    "ground_line_y": 59,
+    "layout": "horizontal strip, frames left to right, no padding",
+    "format": "RGBA PNG, hard edges"
+  },
+  "animations": {
+    "archive_console_idle": {
+      "file": "archive_console_idle.png",
+      "size": [
+        384,
+        64
+      ],
+      "frames": 6,
+      "fps": 5,
+      "loop": true
+    },
+    "archive_console_activate": {
+      "file": "archive_console_activate.png",
+      "size": [
+        640,
+        64
+      ],
+      "frames": 10,
+      "fps": 9,
+      "loop": false
+    }
+  },
+  "anchor": [
+    32,
+    59
+  ],
+  "notes": "no hands drawn; ashen lens drops into the socket on frames 2-5, panel on frame 7, symbol on frames 9-10"
+}
