@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "frame": {
+      "w": 128,
+      "h": 112
+    },
+    "anchor": [
+      64,
+      105
+    ],
+    "ground_line_y": 105,
+    "facing": "right",
+    "layout": "horizontal strip, frames left to right, no padding",
+    "format": "RGBA PNG, hard edges, no semi-transparent pixels"
+  },
+  "animations": {
+    "archive_warden_spawn": {
+      "file": "archive_warden_spawn.png",
+      "size": [
+        1280,
+        112
+      ],
+      "frames": 10,
+      "fps": 9,
+      "loop": false
+    },
+    "archive_warden_idle": {
+      "file": "archive_warden_idle.png",
+      "size": [
+        1024,
+        112
+      ],
+      "frames": 8,
+      "fps": 6,
+      "loop": true
+    },
+    "archive_warden_move": {
+      "file": "archive_warden_move.png",
+      "size": [
+        1024,
+        112
+      ],
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    },
+    "archive_warden_hurt": {
+      "file": "archive_warden_hurt.png",
+      "size": [
+        512,
+        112
+      ],
+      "frames": 4,
+      "fps": 12,
+      "loop": false
+    },
+    "archive_warden_stunned": {
+      "file": "archive_warden_stunned.png",
+      "size": [
+        768,
+        112
+      ],
+      "frames": 6,
+      "fps": 6,
+      "loop": true
+    },
+    "archive_warden_phase_2": {
+      "file": "archive_warden_phase_2.png",
+      "size": [
+        1280,
+        112
+      ],
+      "frames": 10,
+      "fps": 9,
+      "loop": false
+    },
+    "archive_warden_attack_1": {
+      "file": "archive_warden_attack_1.png",
+      "size": [
+        1280,
+        112
+      ],
+      "frames": 10,
+      "fps": 11,
+      "loop": false
+    },
+    "archive_warden_attack_2": {
+      "file": "archive_warden_attack_2.png",
+      "size": [
+        1536,
+        112
+      ],
+      "frames": 12,
+      "fps": 11,
+      "loop": false
+    },
+    "archive_warden_attack_3": {
+      "file": "archive_warden_attack_3.png",
+      "size": [
+        1536,
+        112
+      ],
+      "frames": 12,
+      "fps": 10,
+      "loop": false
+    },
+    "archive_warden_attack_4": {
+      "file": "archive_warden_attack_4.png",
+      "size": [
+        1536,
+        112
+      ],
+      "frames": 12,
+      "fps": 11,
+      "loop": false
+    },
+    "archive_warden_death": {
+      "file": "archive_warden_death.png",
+      "size": [
+        2048,
+        112
+      ],
+      "frames": 16,
+      "fps": 8,
+      "loop": false
+    }
+  },
+  "anchor": [
+    64,
+    105
+  ],
+  "events": {
+    "attack_1": {
+      "hit_frames": [
+        6,
+        7
+      ]
+    },
+    "attack_2": {
+      "projectile_frames": [
+        7
+      ],
+      "vfx": "memory_beam_vfx"
+    },
+    "attack_3": {
+      "summon_frames": [
+        7
+      ]
+    },
+    "attack_4": {
+      "hit_frames": [
+        8
+      ],
+      "vfx": "memory_pulse_vfx"
+    },
+    "death": {
+      "core_release_frame": 9,
+      "vfx": "warden_death_vfx",
+      "vfx_note": "spawn warden_death_vfx at the chest core position on frame 9"
+    }
+  },
+  "vfx": {
+    "memory_beam_vfx": {
+      "file": "memory_beam_vfx.png",
+      "size": [
+        1920,
+        64
+      ],
+      "frame": {
+        "w": 192,
+        "h": 64
+      },
+      "frames": 10,
+      "fps": 10,
+      "loop": false
+    },
+    "memory_pulse_vfx": {
+      "file": "memory_pulse_vfx.png",
+      "size": [
+        1920,
+        64
+      ],
+      "frame": {
+        "w": 192,
+        "h": 64
+      },
+      "frames": 10,
+      "fps": 10,
+      "loop": false
+    },
+    "memory_projectile": {
+      "file": "memory_projectile.png",
+      "size": [
+        192,
+        32
+      ],
+      "frame": {
+        "w": 32,
+        "h": 32
+      },
+      "frames": 6,
+      "fps": 6,
+      "loop": true
+    },
+    "warden_death_vfx": {
+      "file": "warden_death_vfx.png",
+      "size": [
+        1536,
+        112
+      ],
+      "frame": {
+        "w": 128,
+        "h": 112
+      },
+      "frames": 12,
+      "fps": 8,
+      "loop": false
+    }
+  }
+}
