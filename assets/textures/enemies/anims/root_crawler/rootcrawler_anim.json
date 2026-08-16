@@ -1,0 +1,84 @@
+{
+  "frame_size": [
+    160,
+    96
+  ],
+  "facing": "right",
+  "anchor": {
+    "x": 80,
+    "y": 89
+  },
+  "ground_clearance": 1.0,
+  "frame_indexing": "0-based",
+  "animations": {
+    "idle": {
+      "file": "root_crawler_idle.png",
+      "frames": 10,
+      "fps": 7,
+      "loop": true
+    },
+    "move": {
+      "file": "root_crawler_move.png",
+      "frames": 16,
+      "fps": 14,
+      "loop": true
+    },
+    "hurt": {
+      "file": "root_crawler_hurt.png",
+      "frames": 6,
+      "fps": 14,
+      "loop": false
+    },
+    "attack_1": {
+      "file": "root_crawler_attack_1.png",
+      "frames": 14,
+      "fps": 14,
+      "loop": false,
+      "hit_frames": [
+        7,
+        8
+      ]
+    },
+    "attack_2": {
+      "file": "root_crawler_attack_2.png",
+      "frames": 20,
+      "fps": 14,
+      "loop": false,
+      "hit_frames": [
+        11,
+        12
+      ]
+    },
+    "attack_3": {
+      "file": "root_crawler_attack_3.png",
+      "frames": 22,
+      "fps": 14,
+      "loop": false,
+      "burrow_start_frames": [
+        6
+      ],
+      "hit_frames": [
+        14,
+        15
+      ]
+    },
+    "death": {
+      "file": "root_crawler_death.png",
+      "frames": 18,
+      "fps": 12,
+      "loop": false
+    },
+    "whip_impact": {
+      "file": "root_whip_impact.png",
+      "frames": 8,
+      "fps": 14,
+      "loop": false
+    },
+    "burrow_dust": {
+      "file": "root_burrow_dust.png",
+      "frames": 10,
+      "fps": 14,
+      "loop": false
+    }
+  }
+}
