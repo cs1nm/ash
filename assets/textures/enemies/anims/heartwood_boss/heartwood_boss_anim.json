@@ -1,0 +1,167 @@
+{
+  "frame_size": [
+    128,
+    144
+  ],
+  "wide_frame_size": [
+    224,
+    144
+  ],
+  "facing": "right",
+  "anchor": {
+    "x": 64,
+    "y": 137
+  },
+  "frame_indexing": "0-based",
+  "ground_clearance": 0,
+  "state_fallbacks": {
+    "attack_1": "attack_1",
+    "attack_2": "attack_1",
+    "attack_3": "attack_1",
+    "attack_4": "attack_1",
+    "attack_5": "attack_1",
+    "attack_6": "idle",
+    "phase_2": "idle",
+    "stunned": "idle",
+    "spawn": "idle"
+  },
+  "animations": {
+    "spawn": {
+      "file": "heartwood_spawn.png",
+      "frames": 14,
+      "fps": 10,
+      "loop": false
+    },
+    "idle": {
+      "file": "heartwood_idle.png",
+      "frames": 10,
+      "fps": 6,
+      "loop": true
+    },
+    "move": {
+      "file": "heartwood_move.png",
+      "frames": 12,
+      "fps": 8,
+      "loop": true
+    },
+    "phase_2": {
+      "file": "heartwood_phase_2.png",
+      "frames": 14,
+      "fps": 10,
+      "loop": false
+    },
+    "hurt": {
+      "file": "heartwood_hurt.png",
+      "frames": 5,
+      "fps": 12,
+      "loop": false
+    },
+    "stunned": {
+      "file": "heartwood_stunned.png",
+      "frames": 6,
+      "fps": 6,
+      "loop": true
+    },
+    "attack_1": {
+      "file": "heartwood_attack_1.png",
+      "frames": 12,
+      "fps": 11,
+      "loop": false,
+      "hit_frames": [
+        6,
+        7
+      ]
+    },
+    "attack_2": {
+      "file": "heartwood_attack_2.png",
+      "frames": 14,
+      "fps": 11,
+      "loop": false,
+      "hit_frames": [
+        7
+      ]
+    },
+    "attack_3": {
+      "file": "heartwood_attack_3.png",
+      "frames": 12,
+      "fps": 12,
+      "loop": false,
+      "projectile_frames": [
+        6
+      ],
+      "projectile_spawn": [
+        96,
+        60
+      ]
+    },
+    "attack_4": {
+      "file": "heartwood_attack_4.png",
+      "frames": 14,
+      "fps": 10,
+      "loop": false,
+      "summon_frames": [
+        7
+      ]
+    },
+    "attack_5": {
+      "file": "heartwood_attack_5.png",
+      "frames": 15,
+      "fps": 11,
+      "loop": false,
+      "projectile_frames": [
+        8
+      ]
+    },
+    "attack_6": {
+      "file": "heartwood_attack_6.png",
+      "frames": 16,
+      "fps": 10,
+      "loop": false,
+      "heal_frames": [
+        9
+      ]
+    },
+    "death": {
+      "file": "heartwood_death.png",
+      "frames": 20,
+      "fps": 8,
+      "loop": false
+    },
+    "root_vfx": {
+      "file": "heartwood_root_vfx.png",
+      "frames": 10,
+      "fps": 11,
+      "loop": false
+    },
+    "seed_projectile": {
+      "file": "heartwood_seed_projectile.png",
+      "frames": 6,
+      "fps": 12,
+      "loop": false
+    },
+    "seed_impact": {
+      "file": "heartwood_seed_impact.png",
+      "frames": 8,
+      "fps": 14,
+      "loop": false
+    },
+    "flower_spawn": {
+      "file": "heartwood_flower_spawn.png",
+      "frames": 8,
+      "fps": 11,
+      "loop": false
+    },
+    "poison_cloud": {
+      "file": "heartwood_poison_cloud.png",
+      "frames": 12,
+      "fps": 10,
+      "loop": false
+    },
+    "death_vfx": {
+      "file": "heartwood_death_vfx.png",
+      "frames": 14,
+      "fps": 8,
+      "loop": false
+    }
+  }
+}
