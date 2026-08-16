@@ -1,0 +1,77 @@
+{
+  "frame_size": [
+    96,
+    96
+  ],
+  "facing": "right",
+  "anchor": "bottom_center",
+  "ground_clearance": 0.5,
+  "frame_indexing": "0-based",
+  "animations": {
+    "idle": {
+      "file": "wild_slime_idle.png",
+      "frames": 8,
+      "fps": 6,
+      "loop": true
+    },
+    "move": {
+      "file": "wild_slime_move.png",
+      "frames": 12,
+      "fps": 12,
+      "loop": true
+    },
+    "hurt": {
+      "file": "wild_slime_hurt.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "death": {
+      "file": "wild_slime_death.png",
+      "frames": 14,
+      "fps": 12,
+      "loop": false
+    },
+    "attack_1": {
+      "file": "wild_slime_attack_1.png",
+      "frames": 14,
+      "fps": 14,
+      "loop": false,
+      "hit_frames": [
+        7,
+        8
+      ],
+      "hit_frames_1based": [
+        8,
+        9
+      ]
+    },
+    "attack_2": {
+      "file": "wild_slime_attack_2.png",
+      "frames": 16,
+      "fps": 12,
+      "loop": false,
+      "projectile_frames": [
+        8,
+        9
+      ],
+      "projectile_frames_1based": [
+        9,
+        10
+      ]
+    },
+    "ichor_projectile": {
+      "file": "wild_ichor_projectile.png",
+      "frames": 6,
+      "fps": 14,
+      "loop": true,
+      "note": "authored flying left (per prompt); flip horizontally if engine expects right-facing projectiles"
+    },
+    "ichor_impact": {
+      "file": "wild_ichor_impact.png",
+      "frames": 10,
+      "fps": 14,
+      "loop": false
+    }
+  }
+}
